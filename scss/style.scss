@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffc7cb;
+	position: relative;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	transition: all 0.3s;
+}
+
+.header {
+	width: 100%;
+	height: 150px;
+	background-color: #eec2fe;
+	font-weight: 700;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+
+	// .header__logo
+	&__logo {
+		font-size: 55px;
+		color: #c71b60;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	// .header__nav
+	&__nav {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+.nav {
+	font-size: 26px;
+	color: #000;
+
+	a:hover {
+		opacity: 0.5;
+	}
+}
+
+.body {
+	margin: 10px 0px 0px 0px;
+}
+
+.scheduls {
+	width: 500px;
+	margin: 0 auto;
+}
+[class*='day__'] {
+	border-radius: 30px;
+	width: 500px;
+	height: fit-content;
+	margin: 0px auto;
+	background-color: #f4dafe;
+	border: 5px solid #808080;
+	padding: 15px;
+}
+.schedule-serg__day {
+	margin: 0px 0px 10px 0px;
+}
+.schedule-serg {
+	margin-bottom: 10px;
+}
+.schedule-serg__day,
+.schedule-natali__day {
+	margin: 10px 0px 0px 0px;
+}
+.schedule-natali [class*='day__'] {
+	height: 180px;
+}
+[class*='day__']:hover {
+	transition: border 0.3s;
+	border: 10px solid #808080;
+}
+[class*='item-'] {
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0px 0px 10px 0px;
+}
+.h2 .h2__h2, .h2__h2-sub {
+	font-size: 26px;
+	text-align: center;
+	font-weight: 600;
+}
+
+[class*='img-school'] {
+	width: 603px;
+	height: 293px;
+}
+
+.img-school-1 {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	margin: 0px 0px 0px 10px;
+}
+.img-school-1__item {
+	margin: 0px 0px 10px 0px;
+}
+.img-school-2 {
+	position: absolute;
+	top: 160px;
+	left: 1190px;
+	margin: 0;
+	padding: 0;
+}
+.img-school-2__item {
+	margin: 0px 0px 10px 0px;
+}
